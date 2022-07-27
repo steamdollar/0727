@@ -84,3 +84,22 @@ remixd -s . --remix-ide https://remix.ethereum.org
 //
 
 saleToken 컨트랙트를 만든다.
+
+이름 가져오고
+
+가격 매핑,
+
+판매 토큰 배열
+
+판매 등록
+
+토큰 구매.. 를 하는데
+
+구매를 하면 판매 리스트에서 제거해야하니까
+
+popSaleToken 를 도중에 만들어줘야 할거다
+
+그것도 대충 만들면 판매를 취소하는 함수 cancelSaleToken 만들어주면 됨
+
+//
+

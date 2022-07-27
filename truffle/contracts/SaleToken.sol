@@ -50,7 +50,8 @@ contract SaleToken {
         tokenPrices[_tokenId] = 0;
         popSaleToken(_tokenId);
     }
-
+    
+    // 판매 종료 함수
     function popSaleToken(uint _tokenId) private returns (bool) {
         for (uint i = 0; i < SaleTokenList.length; i++) {
             if (SaleTokenList[i] == _tokenId) {
