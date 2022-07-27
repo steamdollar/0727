@@ -81,3 +81,6 @@ https://gateway.pinata.cloud/ipfs/QmUsEKtVS5Gn4rZWbYfD7D4qLLKPf1YbsBWYaSqtmCPBzf
 
 remixd -s . --remix-ide https://remix.ethereum.org
 
+//
+
+saleToken 컨트랙트를 만든다.
