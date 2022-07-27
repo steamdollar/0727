@@ -38,6 +38,9 @@ contract SaleToken {
 
         payable(tokenOwner).transfer(msg.value);
         // ca가 토큰 오너에게 구매자가 입력한 value만큼 이더를 준다
+
+        Token.transferFrom(tokenOwner, msg.sender, _tokenId);
+        
         tokenPrices[_tokenId] = 0;
         popSaleToken(_tokenId);
     }
